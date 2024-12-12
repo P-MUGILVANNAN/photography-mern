@@ -1,0 +1,27 @@
+{
+  "name": "server-side-backend",
+  "version": "1.0.0",
+  "description": "Photography Project Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "production": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "photography-project"
+  ],
+  "author": "Masrur Sakib",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^6.11.0",
+    "mongoose": "^8.8.3",
+    "nodemon": "^2.0.12"
+  }
+}

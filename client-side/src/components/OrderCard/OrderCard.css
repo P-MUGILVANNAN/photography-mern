@@ -1,0 +1,65 @@
+.order-card-section {
+  margin: 20px 10px;
+  width: 300px;
+  border: 1px solid #0000001a;
+  box-shadow: 2px 2px 10px 2px #0000001a;
+}
+.order-card-content-section {
+  padding: 20px;
+  line-height: 30px;
+}
+.order-card-content-section h5 {
+  text-align: center;
+}
+.order-card-content-section p {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.ordered-service-info-section,
+.shipping-info-section,
+.order-status-section {
+  padding-top: 20px;
+}
+.order-status-section {
+  padding-top: 20px;
+}
+.order-status strong {
+  text-transform: uppercase;
+}
+.order-status-update-buttons-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.order-status-update-buttons-section button {
+  margin: 10px;
+  padding: 10px 0px;
+  height: 30px;
+  width: 100px;
+  font-size: 12px;
+  text-transform: uppercase;
+  background: #e5e7e2;
+  border: 1px solid grey;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.order-status-update-buttons-section button:hover {
+  transform: scale(1.05);
+}
+.update-order-status-section select {
+  margin-left: 5px;
+  padding: 3px;
+  background: #e5e7e2;
+  border: 1px solid #8080807e;
+  border-radius: 5px;
+  outline: none;
+  font-size: 12px;
+  text-transform: uppercase;
+}

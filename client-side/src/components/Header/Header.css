@@ -1,0 +1,26 @@
+.header-section {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background: white;
+  overflow: hidden;
+}
+.navbar {
+  box-sizing: border-box;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header-left-section {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+.header-right-section {
+  font-family: "Open Sans", sans-serif;
+}
+.header-right-section a {
+  padding-left: 20px;
+}
